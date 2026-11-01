@@ -1,0 +1,20 @@
+{
+  "name": "Zenulator Web",
+  "short_name": "Zenulator",
+  "description": "A local-first Game Boy Advance emulator for Mac and PC browsers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b2023",
+  "theme_color": "#0b2023",
+  "orientation": "landscape",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

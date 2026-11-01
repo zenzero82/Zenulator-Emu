@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Zenulator",
+    "slug": "zenulator",
+    "version": "1.0.1",
+    "orientation": "default",
+    "icon": "./assets/images/icon_2.png",
+    "scheme": "gba-emu",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "runtimeVersion": "1.0.1",
+    "updates": {
+      "url": "https://u.expo.dev/e1f2f3ab-520a-41d6-835f-eba34c4f91a2",
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    },
+    "splash": {
+      "image": "./assets/images/icon_2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B13"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zenzero82.zenulator",
+      "buildNumber": "36",
+      "requireFullScreen": false,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "The emulator uses audio output.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon_2.png",
+        "backgroundColor": "#0B0B13"
+      },
+      "package": "com.zenulator"
+    },
+    "web": {
+      "favicon": "./assets/images/icon_2.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1f2f3ab-520a-41d6-835f-eba34c4f91a2"
+      }
+    }
+  }
+}
